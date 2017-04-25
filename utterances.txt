@@ -1,0 +1,48 @@
+ReasonForContact	a major change in my life
+ReasonForContact	change
+ReasonForContact	change in life
+ReasonForContact	change in my life
+ReasonForContact	life change
+ReasonForContact	life event
+ReasonForContact	yeah a major change in my life
+ReasonForContact	yes a major change in my life
+ReasonForContact	yup big change in my life
+ReasonForContact	yup big change in my life
+PermanentLifeInsurance	entire life
+PermanentLifeInsurance	forever
+PermanentLifeInsurance	lifetime
+PermanentLifeInsurance	perm
+PermanentLifeInsurance	permanent
+PermanentLifeInsurance	permanent life
+PermanentLifeInsurance	permanent life insurance
+PermanentLifeInsurance	permenant life
+PermanentLifeInsurance	whole life protection
+WelcomeMessage	hello
+LifeChange	Having a child
+LifeChange	having a baby
+LifeChange	baby
+
+
+LifeInsurance	i want insurance
+LifeInsurance	insurance please
+LifeInsurance	insure my life
+LifeInsurance	life
+LifeInsurance	life insurance
+LifeInsurance	protect my life
+UnexpectedEvents	event that are unexpected
+UnexpectedEvents	events that are unexpected
+UnexpectedEvents	plan for unexpected event
+UnexpectedEvents	plan for unexpected events
+UnexpectedEvents	planning for event
+UnexpectedEvents	planning for events
+UnexpectedEvents	planning for the unexpected
+UnexpectedEvents	planning for the unknown
+UnexpectedEvents	planning for unexpected event
+UnexpectedEvents	unexpected event
+UnexpectedEvents	unexpected events
+UniversalLife		universal life
+ByeAlexa			Stop
+ByeAlexa			bye
+ByeAlexa			goodbye
+ByeAlexa			thats enough
+ByeAlexa			thanks alexa

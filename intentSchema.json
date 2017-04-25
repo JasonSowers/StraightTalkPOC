@@ -1,0 +1,30 @@
+// originally built on api.ai, agent located here
+//https://bot.api.ai/GloriousPandemonium 
+{
+  "intents": [
+    {
+      "intent": "ReasonForContact"
+    },
+    {
+      "intent": "PermanentLifeInsurance"
+    },
+    {
+      "intent": "WelcomeMessage"
+    },
+    {
+      "intent": "LifeChange"
+    },
+    {
+      "intent": "LifeInsurance"
+    },
+    {
+      "intent": "UnexpectedEvents"
+    },
+    {
+      "intent": "ByeAlexa"
+    },
+    {
+      "intent": "UniversalLife"
+    }
+  ]
+}
