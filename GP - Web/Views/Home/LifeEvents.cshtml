@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Life Events";
+}
+<section>
+  <div class="container">
+    <div class="row">
+      <h2>@ViewBag.Title</h2>
+      @Html.Raw(ViewBag.message)
+      <div class="col-md-12">
+        <button class="btn btn-default btn-sm btn-option">Adding a child</button>
+        <button class="btn btn-default btn-sm btn-option">Saving for college</button>
+        <button class="btn btn-default btn-sm btn-option">Retirement</button>
+        <button class="btn btn-default btn-sm btn-option">Financial market changes</button>
+        <button class="btn btn-default btn-sm btn-option">Got a new job</button>
+        <button class="btn btn-default btn-sm btn-option">Lost a job</button>
+        <button class="btn btn-default btn-sm btn-option">Buying or selling a house</button>
+        <button class="btn btn-default btn-sm btn-option">A parent is moving in</button>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <a href="@Url.Action("LifeChange")" class="btn btn-primary">What are some next steps?</a>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  //console.log("loaded");
+  var els = document.getElementsByClassName("btn-option");
+  var allOptions = Array.prototype.filter.call(els, function (el) {
+    el.addEventListener("click", Checker, false);
+  });
+
+  function Checker() {
+    //console.log($(this).text());
+    var id = $(this).text().replace(/\s/g, ''); //get rid of spaces
+    if ($(this).hasClass("btn-check")) {
+      $(this).removeClass("btn-check");
+      //$("#" + id).remove();
+    } else {
+      $(this).addClass("btn-check");
+      //$(".sidebar").append("<p id='" + id + "'>" + $(this).text() + "</p>");
+    }
+  }
+</script>

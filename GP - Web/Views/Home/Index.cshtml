@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<section id="home-slider">
+  <div class="container">
+    <div class="row">
+      <div class="main-slider">
+        <div class="slide-text">
+          <h1>We Know Insurance</h1>
+          <p>Glorious Pandemonium is the best place to learn about insurance without any pressure to buy. We put education wherever you need it: chat online with our intelligent bots, speak with our home assistants, or just read at your leisure on this site. We'll give you just the information you need without all that complicated lawyer-speak that drives you crazy.</p>
+          @*<a href="#" class="btn btn-common">SIGN UP</a>*@
+        </div>
+        <img src="/images/home/slider/hill.png" class="slider-hill" alt="slider image">
+        <img src="/images/home/slider/house.png" class="slider-house" alt="slider image">
+        <img src="/images/home/slider/sun.png" class="slider-sun" alt="slider image">
+        <img src="/images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
+        <img src="/images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
+      </div>
+    </div>
+  </div>
+  <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+</section>
+<!--/#home-slider-->
+@*<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="single-service">
+          <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+            <img src="/images/home/icon1.png" alt="">
+          </div>
+          <h2>Incredibly Responsive</h2>
+          <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
+        </div>
+      </div>
+      <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <div class="single-service">
+          <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+            <img src="/images/home/icon2.png" alt="">
+          </div>
+          <h2>Superior Typography</h2>
+          <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
+        </div>
+      </div>
+      <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+        <div class="single-service">
+          <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+            <img src="/images/home/icon3.png" alt="">
+          </div>
+          <h2>Swift Page Builder</h2>
+          <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>*@
+<!--/#services-->
+<section id="action" class="responsive">
+  <div class="vertical-center">
+    <div class="container">
+      <div class="row">
+        <div class="action take-tour">
+          <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+            <h1 class="title">Let's Get Started</h1>
+            @Html.Raw(ViewBag.Message)
+          </div>
+          @*<div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+
+          </div>*@
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/#action-->
+<section class="responsive">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <a href="@Url.Action("LifeEvents", "Home")" class="btn btn-primary btn-card">Major Changes or Goals</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="@Url.Action("Education", "Home")" class="btn btn-primary btn-card">General Education</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
